@@ -1,0 +1,13 @@
+nav {
+  background-color : black;
+}
+
+.active {
+  color : #ed9a42;
+}
+
+li {
+  text-transform: uppercase;
+}
+  
+  
