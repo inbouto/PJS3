@@ -1,0 +1,106 @@
+/*fichier css*/
+
+/*article h1 {
+	color: #3b64a5;
+
+	padding-left:30%;
+	
+}*/
+section {
+	color: #0408e2;
+	text-align:left;
+	margin : 0 auto;
+	padding-left: 5%;
+	padding-right : 20%;	
+	
+	
+}
+
+#page
+{
+	text-align : left;
+	margin-bottom : 2em;
+	padding : 0% 5% 5% 18%;	
+	/*border-width : thick;
+	border-style : solid;
+	border-color : white;
+	border-radius : 25px;
+	box-shadow : 0.1em;*/
+	padding-left : 20%;
+	
+}
+
+article {
+	border-width : thick;
+	border-style : solid;
+	border-color : red;
+	border-radius : 25px;
+	margin-bottom : 2em;
+	background-color : #bbbbbb;
+}
+
+
+#logo {
+	float: left;
+	background : url("folio_logo_big.jpg");
+	background-repeat : no-repeat;
+	background-size : 100%;
+	width : 30em;
+	height : inherit;	
+}
+
+#nom {		
+	height : inherit;
+	text-align : center;
+	
+	padding-left : 5%
+} 
+
+header {
+	height : 10em;
+	width : 100%;
+}
+
+article p{
+	color : black;
+	margin : 1em;
+}
+
+nav {
+	border-style : solid;
+	border-width : thin;
+	border-color : black;	
+	width : 9em;
+	position : absolute;
+	background-color : #bbbbbb;
+}
+nav :hover {
+	color : #4d4f54;	
+}
+
+li {
+	list-style-type:none;
+	padding-bottom : 5%;
+}
+
+.active {
+	color : black;
+	font-style:italic;
+	font-weight:bold;
+ }
+
+#snav > li {	
+	display : none;
+}
+
+#menu:hover > #snav > li {
+	display : block;
+}
+
+body {
+	background-color : #f2f2ef;	
+}
+
+a {
+	text-decoration : none;
+}
