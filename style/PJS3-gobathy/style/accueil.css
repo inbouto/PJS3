@@ -1,0 +1,12 @@
+nav {
+  background-color : black;
+}
+
+.menu li a{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.active {
+  color : #ed9a42;
+}
+
