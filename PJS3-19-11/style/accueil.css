@@ -1,0 +1,62 @@
+html {
+	background-color : black;
+}
+
+nav {
+	padding-top : 1em;
+	background-color : #3d4147;
+	padding-bottom : 1em;  
+}
+
+.menu ul{
+	/*display : inline;*/
+}
+
+.menu li {
+	list-style-type : none;
+	display : inline;
+}
+
+.menu li ul{
+	position : absolute;
+}
+
+.menu li a{
+	/*display : inline;*/
+	text-decoration: none;	
+	color : white;
+	padding-right : 3em;
+}
+
+.menu li{
+
+	/*
+	display : inline;	
+	padding : 2em;
+	padding-bottom : 1em;
+	*/
+}
+
+.menu ul li ul{	
+	display : none;
+	text-transform: none;
+	
+}
+
+.menu ul li:hover ul{	
+	display: block;
+	background-color : #3d4147; 
+	
+}
+
+.menu li:hover ul li  {
+	
+	display: block;
+	/* float : none; */
+}
+
+
+
+#active a{
+  color : #ed9a42;
+}

@@ -1,12 +1,93 @@
-nav {
-  background-color : black;
+/* BALISES */
+
+html {
+	background-color : black;
 }
 
-.menu li a{
-  text-decoration: none;
-  text-transform: uppercase;
+nav {
+	padding-top : 1em;
+	background-color : #3d4147;
+	padding-bottom : 3em;  
 }
-.active {
+
+footer{	
+	text-align : center;
+	background-color : #3d4147;
+	color : #95979b;	
+}
+
+footer a{
+	color : #95979b;
+	text-decoration: underline;
+}
+
+#active a{
   color : #ed9a42;
 }
 
+/* GESTION DU MENU */
+
+.menu ul{
+	/*display : inline;*/
+	
+}
+
+.menu li {
+	list-style-type : none;
+	display : inline;
+	float : left;
+	
+}
+
+.menu li ul{
+	position : absolute;
+	
+}
+
+.menu li a{
+	/*display : inline;*/	
+	text-decoration: none;
+	color : white;
+	margin-left : 3em;
+	padding-right : 5em;
+	text-align : center;
+	transition : color 0.5s;
+}
+
+.menu li{
+
+	/*
+	display : inline;	
+	padding : 2em;
+	padding-bottom : 1em;
+	*/
+}
+
+.menu ul li ul{	
+	display : none;
+	text-transform: none;
+	
+}
+
+.menu ul li:hover ul{	
+	display: block;
+	background-color : #3d4147; 
+	text-align : center;
+	
+}
+
+.menu li:hover ul li  {	
+	display: block;
+	float : none;
+	padding-right : 2em;	
+}
+
+.snav li a {
+	padding-right : 0em;
+	margin-left : 0em;
+	margin-bottom : 50em;
+}
+
+.menu li a:hover{
+	color : #95979b;
+}
