@@ -1,0 +1,184 @@
+h1 {
+	size: 500px;
+}
+
+.hexagon1 {
+	width: 300px;
+	height: 200px;
+	background: red;
+	transform: rotate(120deg);
+	-moz-transform: rotate(120deg);
+	-ms-transform: rotate(120deg);
+	-o-transform: rotate(120deg);
+	-webkit-transform: rotate(120deg);
+	/*margin: 200px auto;*/
+	margin-right: 10px;
+	margin-bottom: 25px;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+.hexagon2 {
+	width: 300px;
+	height: 200px;
+	background: red;
+	transform: rotate(120deg);
+	-moz-transform: rotate(120deg);
+	-ms-transform: rotate(120deg);
+	-o-transform: rotate(120deg);
+	-webkit-transform: rotate(120deg);
+	/*margin: 200px auto;*/
+	margin-right: 10px;
+	margin-bottom: 25px;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+.hexagon3 {
+	width: 300px;
+	height: 200px;
+	background: red;
+	transform: rotate(120deg);
+	-moz-transform: rotate(120deg);
+	-ms-transform: rotate(120deg);
+	-o-transform: rotate(120deg);
+	-webkit-transform: rotate(120deg);
+	/*margin: 200px auto;*/
+	margin-right: 10px;
+	margin-bottom: 25px;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+.hexagon4 {
+	width: 300px;
+	height: 200px;
+	background: red;
+	transform: rotate(120deg);
+	-moz-transform: rotate(120deg);
+	-ms-transform: rotate(120deg);
+	-o-transform: rotate(120deg);
+	-webkit-transform: rotate(120deg);
+	/*margin: 200px auto;*/
+	margin-right: 10px;
+	margin-bottom: 25px;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+.hexagon5 {
+	width: 300px;
+	height: 200px;
+	background: red;
+	transform: rotate(120deg);
+	-moz-transform: rotate(120deg);
+	-ms-transform: rotate(120deg);
+	-o-transform: rotate(120deg);
+	-webkit-transform: rotate(120deg);
+	/*margin: 200px auto;*/
+	margin-right: 10px;
+	margin-bottom: 25px;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+.hexagon1 {
+	float: left;
+}
+
+.hexagon2 {
+	float: left;
+}
+
+.hexagon4 {
+	float: left;
+}
+
+
+
+
+.hexagon-inside {
+	width: 100%;
+	height: 100%;
+	background: green;
+	transform: rotate(-60deg);
+	-moz-transform: rotate(-60deg);
+	-ms-transform: rotate(-60deg);
+	-o-transform: rotate(-60deg);
+	-webkit-transform: rotate(-60deg);
+	overflow: hidden;
+}
+
+.hexagon-image1 {
+	width: 100%;
+	height: 100%;
+	background-image: url("images/divertissements_festivites/sites_historiques/chateau_de_josselin2.JPG");
+	background-position: center top;
+	background-size: 100% 100%;
+	transform: rotate(-60deg);
+	-moz-transform: rotate(-60deg);
+	-ms-transform: rotate(-60deg);
+	-o-transform: rotate(-60deg);
+	-webkit-transform: rotate(-60deg);
+	visibility: visible;
+}
+
+.hexagon-image2 {
+	width: 100%;
+	height: 100%;
+	background-image: url("images/divertissements_festivites/festival_interceltique/festival_lorient_logo.png");
+	background-position: center;
+	background-size: 100% 100%;
+	transform: rotate(-60deg);
+	-moz-transform: rotate(-60deg);
+	-ms-transform: rotate(-60deg);
+	-o-transform: rotate(-60deg);
+	-webkit-transform: rotate(-60deg);
+	visibility: visible;
+}
+
+.hexagon-image3 {
+	width: 100%;
+	height: 100%;
+	background-image: url("images/divertissements_festivites/autres_festivals/la-route-du-rock.jpg");
+	background-position: center;
+	background-size: 100% 100%;
+	transform: rotate(-60deg);
+	-moz-transform: rotate(-60deg);
+	-ms-transform: rotate(-60deg);
+	-o-transform: rotate(-60deg);
+	-webkit-transform: rotate(-60deg);
+	visibility: visible;
+}
+
+.hexagon-image4 {
+	width: 100%;
+	height: 100%;
+	background-image: url("images/divertissements_festivites/parcs_attractions/cobac-parc.jpg");
+	background-position: center;
+	background-size: 100% 100%;
+	transform: rotate(-60deg);
+	-moz-transform: rotate(-60deg);
+	-ms-transform: rotate(-60deg);
+	-o-transform: rotate(-60deg);
+	-webkit-transform: rotate(-60deg);
+	visibility: visible;
+}
+
+.hexagon-image5 {
+	width: 100%;
+	height: 100%;
+	background-image: url("images/divertissements_festivites/sports_nautiques-surf/home3.jpg");
+	background-position: center;
+	background-size: 100% 100%;
+	transform: rotate(-60deg);
+	-moz-transform: rotate(-60deg);
+	-ms-transform: rotate(-60deg);
+	-o-transform: rotate(-60deg);
+	-webkit-transform: rotate(-60deg);
+	visibility: visible;
+}
+
+.hexagon-image1:hover, .hexagon-image2:hover, .hexagon-image3:hover, .hexagon-image4:hover {
+	opacity: 0.4;
+}
