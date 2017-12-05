@@ -100,18 +100,26 @@ footer a{
 /* PAGE */
 
 .titre {
+	text-decoration: none;
 	color : black;
 	background-color : white;
 	text-align : center;
 }
 
-.titre2 {
-	margin-left : 15em;
+.titre a{
+	color : black;
 }
 
 .titre p {
 	color : black;
 }
+
+
+.titre2 {
+	margin-left : 15em;
+}
+
+
 
 /*.titre1 {
 	text-align : center;	
