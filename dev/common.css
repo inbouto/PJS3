@@ -51,8 +51,6 @@ footer a{
 
 /* GESTION DU MENU */
 
-
-
 .menu ul{
 	/*display : inline;*/
 	
@@ -116,10 +114,4 @@ footer a{
 
 .menu li a:hover{
 	color : #95979b;
-}
-
-.contenu{
-	padding-top : 6em;
-	padding-left : 20%;
-	padding-right : 20%;
 }
