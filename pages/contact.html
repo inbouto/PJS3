@@ -1,78 +1,170 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<title>Ma Bretagne</title>
-		<link href="./contact.css" type="text/css" rel="stylesheet" />
-	</head>
-	<body>
-		<nav>
-			<div class="menu">
-			  <ul>
-				<li id="active"><a href="../accueil.html">HOME</a></li>
-				<li><a href="folklore.html">FOLKLORE</a>
-					<ul class="snav">
-						<li><a href="cuisine.html">Cuisine</a></li>
-						<li><a href="langue.html">Langue</a></li>
-						<li><a href="musique.html">Musique</a></li>
-						<li><a href="costumes.html">Costumes</a></li>
-					</ul>
-				</li>
-				<li><a href="histoire.html">HISTOIRE</a>
-					<ul class="snav">
-						<li><a href="moyen-age.html">Le Moyen-Age</a></li>
-						<li><a href="renaissance.html">La Renaissance</a></li>
-						<li><a href="revolution.html">La Révolution</a></li>
-						<li><a href="periode-contemporaine.html">Période contemporaine</a></li>
-						<li><a href="periode-moderne.html">Période moderne</a></li>
-					</ul>
-				</li>
-				<li><a href="divfest.html">DIVERTISSEMENT ET FESTIVITES</a>
-				<ul class="snav">
-						<li><a href="sites-historiques.html">Sites Historiques</a></li>
-						<li><a href="festival-lorient.html">Festival de Lorient</a></li>
-						<li><a href="autres-festivals.html">Autres Festivals</a></li>
-						<li><a href="parcs-dattractions.html">Parcs d'attractions</a></li>
-						<li><a href="ac-nautiques-plages.html">Activités nautiques/plages</a></li>
-					</ul>
-				</li>
-				<li><a href="panorama.html">PANORAMA</a>
-					<ul class="snav">
-						<li><a href="bretagne-littorale">Bretagne littorale</a></li>
-						<li><a href="bretagne-interieure.html">Bretagne de l'intérieur</a></li>
-						<li><a href="sites-naturels.html">Sites naturels</a></li>					
-					</ul>
-				</li>
-				<li><a href="contact.html">CONTACT</a></li>
-			  </ul>
-			</div>
-		</nav>
-		<div class="titre">
-			<a href="accueil.html">MA BRETAGNE</a>
-			<p class="titre2"> CONTACT
-			</p>
-		</div>
-		<div class = "paragraphe">
-			<h1> QUI SOMMES-NOUS ?
-			</h1>
-			<p>
-				Nous sommes une équipe de quatre personnes qui est passionnée par le Bretagne. Plus qu'une destination, la Bretagne représente une culture et un mode de vie pour nous. C'est pour cela que nous avons créé ce site afin de partager notre amour pour la Bretagne. Chaque membre du groupe est spécialisé dans un domaine: Histoire , Paysages , Divertissements ou encore Traditions. En effet c'est pour cela que vous retrouverez ces quatre grands thèmes sur notre site. <br> 
- 
-				<br/>Nous espérons que vous apprécierez visiter notre site autant que nous avons apprécié le faire pour vous.<br> 
- 
-				<br/>N'hésitez pas à nous donner notre avis sur la Bretagne grâce au #passionBretagne et #j'aimelaBretagne.<br>
-​
-				<br/>Vous pouvez également directement nous contacter par mail :<br>
-				<br/>ma-bretagne@gmail.com , un des concepteurs du site vous répondra dans les cinq heures.<br>
-			</p>
-		</div>
-		<footer>
-			<p> 143, Avenue de Versailles, 75016 Paris<br><br/> 
-			© 2023 by Event Horizon. Proudly created with Wix.com</p>
-			<a href="contact.html">Nous contacter<br><br/></a> 
-			<a href="#menu">Haut</a>
-		
-		
-		</footer>
-	</body>
-</html>
+/* BALISES */
+
+html {
+	background-color : black;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Abel';
+	font-size: 22px;
+}
+
+p {
+	 font-family: 'Abel';
+	 font-size: 22px;
+	
+}
+
+nav {
+	padding-top : 1em;
+	background-color : #3d4147;
+	padding-bottom : 3em;  
+}
+
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   height: 25%;
+   width: 100%;
+   text-align : center;
+   background-color : #3d4147;
+   color : #95979b;
+
+}
+
+footer a {
+	color : #95979b;
+	text-decoration: underline;
+	
+    left: 0;
+    top:50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+	
+	font-size: 24px;
+}
+
+.copyright P {
+	font-size: 18px;	
+}
+
+
+
+#active a{
+  color : #ed9a42;
+}
+
+
+/* GESTION DU MENU */
+
+.menu ul{
+	/*display : inline;*/
+	
+}
+
+.menu li {
+	list-style-type : none;
+	display : inline;
+	float : left;
+	
+}
+
+.menu li ul{
+	position : absolute;
+	
+}
+
+.menu li a{
+	/*display : inline;*/	
+	
+	color : white;
+	margin-left : 3em;
+	padding-right : 5em;
+	text-align : center;
+	transition : color 0.5s;
+}
+
+.menu li{
+	display : inline;	
+	padding : 2em;
+	padding-bottom : 1em;
+	
+}
+
+.menu ul li ul{	
+	display : none;
+	text-transform: none;
+	
+}
+
+.menu ul li:hover ul{	
+	display: block;
+	background-color : #3d4147; 
+	text-align : center;
+	
+}
+
+.menu li:hover ul li  {	
+	display: block;
+	float : none;
+	padding-right : 2em;	
+}
+
+.snav li a {
+	padding-right : 0em;
+	margin-left : 0em;
+	/*margin-bottom : 50em;*/
+}
+
+.menu li a:hover{
+	color : #95979b;
+}
+
+
+/* PAGE */
+
+.titre {
+	text-decoration: none;
+	color : black;
+	background-color : white;
+	text-align : center;
+	height: 300px;
+    width: 100%;
+}
+
+.titre a{
+	color : black;
+}
+
+.titre p {
+	color : black;
+}
+
+
+.titre2 {
+	margin-left : 15em;
+}
+
+
+
+/*.titre1 {
+	text-align : center;	
+}*/
+
+.paragraphe {
+	background-color : #3d4147;
+}
+
+.paragraphe p, .paragraphe h1 {
+	margin-left : 15 em;
+	color : white
+}
+
+/* CARTE */ 
+
+
+	
