@@ -1,6 +1,3 @@
-
-/* BALISES */
-
 /* BALISES */
 
 html {
@@ -9,6 +6,14 @@ html {
 
 a {
 	text-decoration: none;
+	font-family: 'Abel';
+	font-size: 22px;
+}
+
+p {
+	 font-family: 'Abel';
+	 font-size: 22px;
+	
 }
 
 nav {
@@ -39,6 +44,12 @@ footer a {
     width: 100%;
     text-align: center;
     font-size: 18px;
+	
+	font-size: 24px;
+}
+
+.copyright P {
+	font-size: 18px;	
 }
 
 
@@ -78,12 +89,10 @@ footer a {
 }
 
 .menu li{
-
-	/*
 	display : inline;	
 	padding : 2em;
 	padding-bottom : 1em;
-	*/
+	
 }
 
 .menu ul li ul{	
@@ -115,6 +124,7 @@ footer a {
 	color : #95979b;
 }
 
+
 /* PAGE */
 
 .titre {
@@ -122,6 +132,8 @@ footer a {
 	color : black;
 	background-color : white;
 	text-align : center;
+	height: 300px;
+    width: 100%;
 }
 
 .titre a{
@@ -151,3 +163,6 @@ footer a {
 	margin-left : 15 em;
 	color : white
 }
+
+/* CARTE */ 
+
