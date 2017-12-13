@@ -10,18 +10,7 @@ html {
 }
 */
 
-nav {
-	/*padding-top : 1em;
-	background-color : #3d4147;
-	padding-bottom : 3em;  */
-	position: fixed;
-	height: 10%;
-	width: 100%;
-	background-color : #3d4147;
-	color : #95979b;	
-	text-align : center;
-	
-}
+
 
 footer{	
 	position: fixed;
@@ -47,26 +36,43 @@ footer a{
 */
 
 
+
+
+
+
+
+/*****************************/
+/****** GESTION DU MENU ******/
+/*****************************/
+
+
+nav {
+	/*padding-top : 1em;
+	background-color : #3d4147;
+	padding-bottom : 3em;  */
+	position: fixed;
+	height: 10%;
+	width: 100%;
+	background-color : #3d4147;
+	color : #95979b;	
+	text-align : center;
+	
+}
+
 #active a{
   color : #ed9a42;
 }
 
-/* GESTION DU MENU */
-
-.menu ul{
-	/*display : inline;*/
-	
-}
-
 .menu li {
 	list-style-type : none;
-	display : inline;
-	float : left;
+	font-size : 200%;
+	/*display : inline;
+	float : left;*/
 	
 }
 
 .menu li ul{
-	position : absolute;
+	/*position : absolute;*/
 	
 }
 
@@ -74,8 +80,8 @@ footer a{
 	/*display : inline;*/	
 	text-decoration: none;
 	color : white;
-	margin-left : 3em;
-	padding-right : 5em;
+	
+	
 	text-align : center;
 	transition : color 0.5s;
 }
@@ -95,25 +101,50 @@ footer a{
 	
 }
 
-.menu ul li:hover ul{	
-	display: block;
-	background-color : #3d4147; 
-	text-align : center;
-	
-}
 
-.menu li:hover ul li  {	
-	display: block;
-	float : none;
-	padding-right : 2em;	
-}
 
-.snav li a {
-	padding-right : 0em;
-	margin-left : 0em;
-	margin-bottom : 50em;
-}
 
 .menu li a:hover{
 	color : #95979b;
+	
+	font-size : 100%;
+}
+
+/*FLEXBOX*/
+
+
+.menu ul li:hover ul{	
+	display: flex;
+	flex-direction : column;
+	flex-wrap : nowrap;
+	justify-content : flex-start;
+	
+	
+	background-color : #3d4147; 
+	text-align : center;
+}
+
+.snav ul li{
+	text-align : center;
+}
+
+.menu ul 
+{
+	display: flex;
+	flex-direction : row;
+	justify-content : space-around;
+}
+
+.menu li{
+	
+}
+
+.snav li{
+	padding : 0px;
+	margin : 0px;
+}
+
+.snav {
+	padding : 0px;
+	margin : 0px;
 }
