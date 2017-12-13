@@ -1,3 +1,32 @@
 .title{
 	
 }
+
+.titre_principal{
+	color : #636363
+}
+
+.sous-titre{
+	color : #D9A722;
+}
+
+.paragraphe{
+	color : #636363
+}
+
+body{
+	text-align : center;
+	margin-right : 30%;
+	margin-left : 30%;
+}
+
+.bold{
+	display : inline;
+	font-weight: bold;
+}
+
+.texte{
+	/*color : red;*/
+	color : #969696; /* Pb avec .bold*/
+	display : inline;	
+}
