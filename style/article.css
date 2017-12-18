@@ -20,13 +20,14 @@ body{
 	margin-left : 30%;
 }
 
-.bold{
-	display : inline;
-	font-weight: bold;
-}
 
 .texte{
 	/*color : red;*/
 	color : #969696; /* Pb avec .bold*/
 	display : inline;	
+}
+
+.bold{
+	display : inline;
+	font-weight: bold;
 }
