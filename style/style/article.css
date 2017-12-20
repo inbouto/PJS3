@@ -1,0 +1,125 @@
+html {
+	background-color : white;
+}
+
+/*@font-face {
+	font-family: "Grotesk";
+	src: url("../style/DIN 30640 Std Neuzeit Grotesk Bold Cond);
+}
+*/
+
+nav {
+	/*padding-top : 1em;
+	background-color : #3d4147;
+	padding-bottom : 3em;  */
+	position: fixed;
+	height: 10%;
+	width: 100%;
+	background-color : #3d4147;
+	color : #95979b;	
+	text-align : center;
+	
+}
+
+footer{	
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 30%;
+	width: 100%;
+	background-color : #3d4147;
+	color : #95979b;	
+	text-align : center;
+	
+}
+
+footer a{
+	color : #95979b;
+	text-decoration: underline;
+}
+
+/*footer p{
+	font-family: "Grotesk"; 
+	
+}
+*/
+
+
+#active a{
+  color : #ed9a42;
+}
+
+/* GESTION DU MENU */
+
+
+
+.menu ul{
+	/*display : inline;*/
+	
+}
+
+.menu li {
+	list-style-type : none;
+	display : inline;
+	float : left;
+	
+}
+
+.menu li ul{
+	position : absolute;
+	
+}
+
+.menu li a{
+	/*display : inline;*/	
+	text-decoration: none;
+	color : white;
+	margin-left : 3em;
+	padding-right : 5em;
+	text-align : center;
+	transition : color 0.5s;
+}
+
+.menu li{
+
+	/*
+	display : inline;	
+	padding : 2em;
+	padding-bottom : 1em;
+	*/
+}
+
+.menu ul li ul{	
+	display : none;
+	text-transform: none;
+	
+}
+
+.menu ul li:hover ul{	
+	display: block;
+	background-color : #3d4147; 
+	text-align : center;
+	
+}
+
+.menu li:hover ul li  {	
+	display: block;
+	float : none;
+	padding-right : 2em;	
+}
+
+.snav li a {
+	padding-right : 0em;
+	margin-left : 0em;
+	margin-bottom : 50em;
+}
+
+.menu li a:hover{
+	color : #95979b;
+}
+
+.contenu{
+	padding-top : 6em;
+	padding-left : 20%;
+	padding-right : 20%;
+}

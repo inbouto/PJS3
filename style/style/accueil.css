@@ -1,0 +1,157 @@
+/* BALISES */
+
+html {
+	background-color : white;
+}
+
+/*@font-face {
+	font-family: "Grotesk";
+	src: url("../style/DIN 30640 Std Neuzeit Grotesk Bold Cond);
+}
+*/
+
+
+
+footer{	
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 30%;
+	width: 100%;
+	background-color : #3d4147;
+	color : #95979b;	
+	text-align : center;
+	
+}
+
+footer a{
+	color : #95979b;
+	text-decoration: underline;
+}
+
+/*footer p{
+	font-family: "Grotesk"; 
+	
+}
+*/
+
+
+
+
+
+
+
+/*****************************/
+/****** GESTION DU MENU ******/
+/*****************************/
+
+
+nav {
+	/*padding-top : 1em;
+	background-color : #3d4147;
+	padding-bottom : 3em;  */
+	position: fixed;
+	height: 10%;
+	width: 100%;
+	background-color : #3d4147;
+	color : #95979b;	
+	text-align : center;
+	
+}
+
+#active a{
+  color : #ed9a42;
+}
+
+
+
+/*FLEXBOX*/
+
+
+.menu li a{	
+	text-decoration: none;
+	color : white;
+	
+	
+	text-align : center;
+	transition : color 0.5s;
+}
+
+.menu li {
+	list-style-type : none;
+	
+}
+
+.menu ul 
+{
+	display: flex;
+	flex-direction : row;
+	justify-content : space-around;
+}
+
+
+.menu ul li ul{	
+	display : none;
+	text-transform: none;
+	
+}
+
+.menu ul li:hover ul{
+	display : flex;
+	flex-direction : column;
+	margin : 0px;
+	padding : 0px;
+}
+
+.menu ul li:hover{
+	display : flex;
+	flex-direction : column;
+	justify-content: center;
+}
+
+
+/*.menu ul li:hover ul{	
+	display: flex;
+	flex-direction : column;
+	flex-wrap : nowrap;
+	justify-content : flex-start;
+	
+	
+	background-color : #3d4147; 
+	text-align : center;
+}
+
+.snav ul li{
+	text-align : center;
+}
+
+
+
+.menu li{
+	
+}
+
+.snav li{
+	padding : 0px;
+	margin : 0px;
+}
+
+.snav {
+	padding : 0px;
+	margin : 0px;
+}
+
+
+
+
+
+
+
+
+
+.menu li a:hover{
+	color : #95979b;
+	
+}
+
+*/
