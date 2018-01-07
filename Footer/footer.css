@@ -1,0 +1,109 @@
+/* BALISES */
+
+html {
+	background-color : #FFFFFF;
+	height : 100%;
+}
+
+body {
+	min-height: 100%;
+	margin: 0;
+	padding: 0;	
+	
+	position: relative;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Advent Pro';
+	font-size: 22px;
+}
+
+p {
+	 font-family: 'Advent Pro';
+	 font-size: 22px;
+	
+}
+
+nav {
+	padding-top : 1em;
+	background-color : #282828;
+	padding-bottom : 3em;  
+}
+
+
+footer {
+	
+	
+	position: absolute;
+	bottom: 0;
+	
+	
+   width: 100%;
+	 text-align : center;
+   background-color : #282828;
+   color : #95979b;
+   
+	/*position: relative;
+    bottom: 0;
+    right: 0;
+   left: 0;
+   bottom: 0;
+   height: 35%;
+   width: 100%;
+   text-align : center;
+   background-color : #282828;
+   color : #95979b;
+*/
+}
+
+footer a {
+	color : #95979b;
+    
+    text-align: center;
+    
+	font-size: 22px;
+	font-weight: bold;
+	text-decoration: underline;	
+}
+
+footer p {
+	font-weight: bold;
+	text-align: center;
+}
+
+.positionfleche img{
+	/*vertical-align: middle;
+	float : right; 
+	margin:0 10px 10px 20px; 
+    */
+	position: absolute;
+	top: 180px;
+	left: 1150px;
+	/*width : 468px;
+	height: 60px;
+	*/
+}
+
+.copyright P {
+	font-size: 17px;
+	text-align: center;
+	font-weight: none;
+}
+
+.paragraphe {
+	background-color : #282828;
+}
+
+.paragraphe p, .paragraphe h1 {
+	margin-left : 15 em;
+	color : white;
+	font-family: 'Advent Pro';
+
+	
+}
+
+
+
+
+
